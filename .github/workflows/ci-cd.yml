@@ -31,5 +31,5 @@ jobs:
           dotnet-version: 8.0
 
       - name: Build and Deploy
-        run: dotnet publish --project src /p:PublishProfile=DefaultContainer
+        run: dotnet publish src /p:PublishProfile=DefaultContainer
           
